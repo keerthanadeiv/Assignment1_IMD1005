@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Abril Fatface','Poppins';
+    
+}
+.homecontent {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/horsebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    
+}
+
+header {
+position: relative;
+align-items: center;
+background-color: #4a3a37 ;
+border-width: 10px;
+border-style: double;
+}
+
+
+
+h1 {
+    font-size: 3rem ;
+    color: #d4d7ab;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/**.home-gif {
+    background-image: url(../images/running.gif);
+    width: 744px;
+    height: 282px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-content: center;
+   
+}*/
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: #f3ebcf;
+    margin-left: 1rem;
+    text-decoration: none;
+   
+}
+
+nav a:hover {
+    background-color: #707431 ;
+}
+
+nav a:last-child {
+    margin-right: 3rem ;
+}
+
+.words-home {
+    background-color: #f3ebcf;
+    width:auto;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    border-color: #707431;
+    border-width: 10px;
+    border-style: double;
+    ;
+
+}
+
+.words-home p {
+
+    padding: 10%;
+    font-size: larger;
+    font-family: 'Poppins';
+}
+
+footer{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+    background-color: #4a3a37 ;
+    border-width: 10px;
+    border-style: double;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+
+}
+
+footer p {
+    color: #d4d7ab;
+    
+}
+
+hr.solid {
+    
+    border-top: 6px solid #d4d7ab
+}
+
+.type {
+   padding: 10px; 
+   border-radius: 10px;
+   background-color: #f3ebcf;
+   width:auto;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    border-color: #707431;
+    border-width: 10px;
+    border-style: double;
+    margin: 10px;
+}
+
+.type p {
+    text-align: left;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+.type img {
+    border-color: #4a3a37;
+    border-width: 4px;
+    border-style: dashed;
+    
+
+}
+
+.types{
+    background-color: #7d542e;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.type i {
+    color: darkgrey;
+}
+
+.pretext {
+
+    background-color: #707431;
+    padding: 5%;
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    border-width: 6px;
+    border-color: #d4d7ab;
+    border-style: solid;
+
+}
+
+.pretext p {
+
+  color: #d4d7ab;  
+    
+}
+
+.gallery {
+
+    background-color: #8d5544;
+    border-color: #3e1009; 
+    border-radius: 10px; width:auto;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    border-width: 10px;
+    border-style: double;
+    margin: 10px;
+    max-height: fit-content;
+}
+
+h3 {
+
+    text-decoration: underline;
+    color: #3e1009;
+    background-color: #be735c;
+    font-size: 1.8rem
+
+
+}
+
+h4{
+
+padding: 0.5%;
+
+
+}
+
+.gallery p {
+
+    font-family: 'Poppins';
+    color: #f3ebcf;
+  
+}
+
+.horse-pic {
+    border-bottom: #f3ebcf;
+    border-width: 6px;
+   
+}
+
